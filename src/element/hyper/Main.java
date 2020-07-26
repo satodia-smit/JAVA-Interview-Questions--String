@@ -3,7 +3,7 @@ package element.hyper;
 public class Main {
 
     public static void main(String[] args) {
-        testAnagramString();
+        testLengthOfString();
     }
 
     static void testReturnString() {
@@ -11,7 +11,11 @@ public class Main {
         ReverseString.returnString(mString);
     }
 
-    static void testAnagramString(){
-        AnagramString.checkAnaGram("smit","Mits");
+    static void testAnagramString() {
+        AnagramString.checkAnaGram("smit", "Mits");
+    }
+
+    static void testLengthOfString() {
+        LengthOfString.checkLengthOfString("Smit Satodia");
     }
 }
