@@ -1,4 +1,4 @@
-package element.hyper;
+package element.hyper.string;
 
 public class ReverseString1 {
     static void returnString(String aInput) {

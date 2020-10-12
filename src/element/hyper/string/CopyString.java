@@ -1,4 +1,4 @@
-package element.hyper;
+package element.hyper.string;
 
 public class CopyString {
     public static void copyString(String s) {
